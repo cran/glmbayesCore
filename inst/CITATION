@@ -1,0 +1,31 @@
+citHeader("To cite glmbayesCore in publications use the first entry for software; cite Nygren and Nygren (2006) for likelihood subgradient methodology. End-user modelling interfaces live in the glmbayes package (cite separately if used).")
+
+year <- sub("-.*", "", meta$Date)
+if (!nzchar(year)) {
+  year <- format(Sys.Date(), "%Y")
+}
+
+c(
+  bibentry(
+    bibtype  = "Manual",
+    title    = "{glmbayesCore}: Core C++ Sampling Engine for 'glmbayes'",
+    author   = person("Kjell", "Nygren"),
+    year     = year,
+    note     = paste("R package version", meta$Version),
+    url      = "https://github.com/knygren/glmbayesCore"
+  ),
+  bibentry(
+    bibtype  = "Article",
+    title    = "Likelihood Subgradient Densities",
+    author   = c(
+      person("Kjell N.", "Nygren"),
+      person("Lan M.", "Nygren")
+    ),
+    journal  = "Journal of the American Statistical Association",
+    volume   = "101",
+    number   = "475",
+    pages    = "1144--1156",
+    year     = "2006",
+    doi      = "10.1198/016214506000000357"
+  )
+)
