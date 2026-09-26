@@ -1,6 +1,6 @@
-82e381856f1cde44898e35661cf8af1d *DESCRIPTION
-76359c90b410c90e9b761811e4d96646 *NAMESPACE
-316a7dbaac27f5cccf26e76fc41614e9 *NEWS.md
+e87ea835819e0c03fd7a842d2fa715c5 *DESCRIPTION
+35b80919a20f2e45051cec40459234cc *NAMESPACE
+12980c5ff4f616c8f29581069f30bca7 *NEWS.md
 815d2075e79be7239adf15dc72a812f0 *R/RcppExports.R
 c8aaf8e103bcc8823aae4e6cea5c2fed *R/compute_gaussian_prior.R
 70099e42b5b599e6761e6d53f30b565a *R/data-AMI.R
@@ -13,7 +13,7 @@ fa5a4993c47e5ef18c005dad45aeb929 *R/dic_info.R
 173a46c842820b1f3dd53d2fc3dca12b *R/fitter_functions.R
 ceb2548fcdc42cde7d22df0640b909ed *R/formula.summary.rglmb.R
 8663e0e0d8b8ca2668ba6c312f2b8ec9 *R/gamma_ct.R
-13206e376ff1c8137f78a2f6f16c6a75 *R/glmbayesCore-package.R
+1df121926aa11fd4bd938f6f1a06592a *R/glmbayesCore-package.R
 de94d8368f1bf49a904db2200d5b577a *R/globals.R
 ef11f0e6386b2459ea2c54c1b555b443 *R/gpu_diagnostics.R
 4e82a07b919065d38a2a388ca22c26a8 *R/ing_prior_guard.R
@@ -26,7 +26,7 @@ c78c4db98e4c04e88079a857bedf28c8 *R/multi_rlmb.R
 36acafc6caac2fe33b84858ae099531b *R/pfamily.R
 a704ef492725283d6a5075717ea3525c *R/prior.R
 b6b9a85b082a3436e0b36f037fe557fc *R/rcpp_wrappers.R
-d5c7625e4c42cc1e6ef422536bf41e30 *R/residuals.rglmb.R
+274415d1f2b075095f015474b05eab88 *R/residuals.rglmb.R
 a082688bf33683b5a9ab90efc74ce32b *R/rglmb.R
 7c675ea187e045663e289599f19a4065 *R/rlmb.R
 25c2bbb477ded38d95a3fc819a77f431 *R/simfunction.R
@@ -36,10 +36,10 @@ e60d72751580c91190a4555db656a690 *R/summary.rgamma_reg.R
 a26c612ff195344843d6b5c1a35dbfb7 *R/summary.rglmb.R
 0feff50a3a1e473d3692105cc6852ee3 *R/zzz.R
 148c827bb29e6e19e825ab352ea12c70 *README.md
-c16aaae35739773dc43b22fcd07a3d4e *build/partial.rdb
+630e4709d8b6e8bbd4cacad804b0c80b *build/partial.rdb
 205e52319104bf8f29a94d82af2c4560 *cleanup
-511c29fe5972d1a6e9fa67569c579bea *configure
-01803608780a44c0dc2f57ceced9c18f *configure.win
+8f6b5976272bde151fea3aafe55993bf *configure
+f9219aedcba02d9cd8f64392b9892d71 *configure.win
 8f03ebc8e41a25ac7bdd77ed091a7d6e *data/AMI.RData
 400349a84c3410979b1e656dded2ff8f *data/BikeSharing.rda
 c28a316f298b7830633e382e5afdbc95 *data/Boston_centered.rda
@@ -54,7 +54,7 @@ be5b3449c2c5916327a986a2368d9599 *data/Cleveland.rda
 4201b129fc1be5cd5f5d1be1ec1cb70d *inst/CITATION
 dd23ab20008e43736079ba814549022c *inst/COPYRIGHTS
 8960cdf92ccf1246fdf0c74cd56f724f *inst/REFERENCES.bib
-164f1a2e464a9317cbefe93204a5c196 *inst/WORDLIST
+ed88d0a9fe01a3a88276bb2c96522e74 *inst/WORDLIST
 4e4f53cdf364b6cdfd5b5aa1555b0eab *inst/cl/OPENCL.cl
 ac842944b5c76617a7acbc97edbbf44c *inst/cl/README.md
 435d35114f2c83c5b994c651fe7a0c67 *inst/cl/R_ext_internals/Parse.cl
@@ -194,7 +194,7 @@ fcbce96cea2d2c8fffd50fec65d1764b *man/multi_rlmb.Rd
 46a2df32f6b208b73c63a0d30330896c *man/pfamily.Rd
 9196f5677d4ed5d82ed55dcdab95a334 *man/rIndepNormalGammaReg_std.Rd
 2f0ef56ed7a6d81ff6ac43668daa02cd *man/rNormalGLM_std.Rd
-0bd0ef2295f6727db248ac4693cb2d7a *man/residuals.rglmb.Rd
+949d4691dc8dbd05fc95743ee0be8e53 *man/residuals.rglmb.Rd
 05ed52725ee486ede1e8bef12a9b1d9c *man/rglmb.Rd
 6441f7abf393b0fe9424163b67f2bc88 *man/rlmb.Rd
 50d376554a0c46ec1625b1dd9d732b27 *man/roxygen/meta.R
@@ -214,7 +214,7 @@ ea3fe632795a8a0d88fefeaf1cf94adb *src/EnvelopeSize.cpp
 a071559041640d53901244cf003477fb *src/EnvelopeSort.cpp
 a589b6db40b5fe8c0415fec3cabd03cb *src/Envelopefuncs.h
 bc9d9ccd2362c79630204fea943e1f5d *src/Makevars
-b10111ecdc386a07b42cb91e09aa2d8b *src/Makevars.win
+9e419f87cb15b2e760780642f9c4bcb3 *src/Makevars.win
 c50c49575466b899e13de7646f3ffe47 *src/OpenCL_helper.cpp
 f04b5fec29d2f34d8d142ca32d6a85fa *src/R_interface.h
 ed6d994d9bedcdf354caf655f1dd0068 *src/RcppExports.cpp
@@ -228,8 +228,6 @@ eae43d5bdea4a9d16022d9a86c5335aa *src/export_wrappers.cpp
 c219877ff50efc5f2dc53cfd0b468cec *src/famfuncs_binomial.cpp
 78364181e3450a44654fe19baa876629 *src/famfuncs_gaussian.cpp
 a9265eb137c8147210cbea9abc6a73a4 *src/famfuncs_poisson.cpp
-57b903851ae96d9ba6928f99f7893518 *src/glmbayes_getRegisteredNamespace.cpp
-118d8b5cea431a2eda4117f9e87056e5 *src/glmbayes_getRegisteredNamespace.h
 4eea8ce2bd57f629d68d7f63bee66ea4 *src/invgamma_ct.cpp
 25dbb02a4cdb1e73d23c170c5f084ffc *src/kernel_loader.cpp
 5da7e012abeac1da193756e4e74a1e40 *src/kernel_runners.cpp
@@ -254,5 +252,3 @@ f4c4617d3b9e0b779cbdae5b3e8ceff4 *src/rng_utils.h
 7a8fb6e351d60570d1950111b58a96c9 *tests/spelling.Rout.save
 7dbe4564da1ba71ecf2314d246b91162 *tests/testthat.R
 cabf44321df0e5808bbea5eaf535b8a2 *tests/testthat/test-prior-setup-poisson-conj.R
-52d6ecd6445e2021c004687bec157da6 *tools/patch_rcpp_function_h.R
-e3bf3aeff191791c2f323d7e758bb1b4 *tools/rcpp_include.R

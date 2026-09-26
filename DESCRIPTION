@@ -1,8 +1,8 @@
 Package: glmbayesCore
 Type: Package
 Title: Core C++ Sampling Engine for 'glmbayes'
-Version: 0.5.3
-Date: 2026-07-25
+Version: 0.5.4
+Date: 2026-09-26
 Authors@R: c(
     person("Kjell", "Nygren", role = c("aut", "cre"),
            email = "kjell.a.nygren@gmail.com"),
@@ -50,7 +50,7 @@ Config/testthat/edition: 3
 LazyData: true
 Language: en-US
 NeedsCompilation: yes
-Packaged: 2026-07-26 01:55:21 UTC; kjell
+Packaged: 2026-09-26 20:49:53 UTC; kjell
 Author: Kjell Nygren [aut, cre],
   The R Core Team [ctb, cph] (R Mathlib sources, R stats modeling code,
     and derived/adapted routines),
@@ -65,4 +65,4 @@ Author: Kjell Nygren [aut, cre],
     (Apache License 2.0))
 Maintainer: Kjell Nygren <kjell.a.nygren@gmail.com>
 Repository: CRAN
-Date/Publication: 2026-08-05 07:30:02 UTC
+Date/Publication: 2026-09-26 21:20:09 UTC
